@@ -18,13 +18,13 @@ project:
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
     - "tt_um_pwm.v"
-      "pwm.v"
+    - "pwm.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "Input clk"
+  ui[0]: "External Input clk"
   ui[1]: "Input reset"
   ui[2]: "Input switch [0]"
   ui[3]: "Input switch [1]"
