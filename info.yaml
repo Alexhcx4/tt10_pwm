@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "4-bit pwm "      # Project title
-  author:       "Alexia Hernández Cadena, Jesus Andres Feria Flores, Oscar Leopoldo Perez Castañeda"      # Your name
+  author:       "Alexia Hernandez Cadena, Jesus Andres Feria Flores, Oscar Leopoldo Perez Castañeda"      # Your name
   discord:      "ahcx"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "generates a pwm output using a 4-bit input signal"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
