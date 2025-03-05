@@ -20,20 +20,17 @@ sw=4´b1000; //sets the duty cycle to 50% (128/255)
 sw=4´b1100; //sets the duty cycle to 75% (192/255)
 sw=4´b1111; //sets the duty cycle to 94% (240/255)
 
-AGREGA IMAGEN
-MODULO/ENTIDAD
-
-PWM EJEMPLO DIBUJO
+![PWM module](https://github.com/user-attachments/assets/21a4fd48-3460-4e8c-a302-7d7292492178)
+![DutyCicleEx](https://github.com/user-attachments/assets/ab236752-06a5-47b4-ad7f-e8fc24d6570a)
 
 ## How to test
 
 In this proyect we can get the PWM output signal by assigning values ​​to the 4-bit SW input, the RST input will reset the module.
 
-IMAGEN TEST BENCH
+![TestBenchPWM](https://github.com/user-attachments/assets/fb3e2905-64b6-47c9-ae39-9733a3427c5d)
+![RTLpwm](https://github.com/user-attachments/assets/52cf8b64-f436-4895-8c67-365810d39a02)
 
 ## External hardware
 
 A function generator will be useful for the CLK input, however, an integrated circuit can be connected to produce pulses at this input. 
 An ocilloscope is needed to check and display the duty cycle that we will obtain in the PWM (pulse width modulation).
-
-SEÑAL CUADRADA EN OSCILOSCOPIO
